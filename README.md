@@ -2,14 +2,6 @@
 
 Technology Stack used: Vue3, REST API and Pinia.
 
-## Recommended Installation
-
-```
-git clone https://github.com/roma-marshall/vue3-api-pinia
-cd json-api-pinia
-npm run dev
-```
-
 ## Code snippets
 
 1. Define Pinia in `store/pinia.js` and init the `data: {}` object
@@ -45,6 +37,14 @@ const fetchData = async () => {
 3. Method `fetchData()` callback after the component `App.vue` has been mounted
 ```javascript
 onMounted(() => fetchData())
+```
+
+## Recommended Installation
+
+```
+git clone https://github.com/roma-marshall/vue3-api-pinia
+cd json-api-pinia
+npm run dev
 ```
 
 ## License
