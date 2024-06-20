@@ -43,7 +43,7 @@ onMounted(() => fetchData())
 
 ```
 git clone https://github.com/roma-marshall/vue3-api-pinia
-cd json-api-pinia
+cd vue3-api-pinia
 npm run dev
 ```
 
