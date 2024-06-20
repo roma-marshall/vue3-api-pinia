@@ -7,7 +7,7 @@ Technology Stack used: Vue3, REST API and Pinia.
 1. Define Pinia in `store/pinia.js` and init the `data: {}` object
 
 ```javascript
-import {defineStore} from 'pinia'
+import { defineStore } from 'pinia'
 
 export const piniaStore = defineStore('counter', {
     state: () => ({
