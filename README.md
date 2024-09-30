@@ -28,7 +28,7 @@ const fetchData = async () => {
         }
     })
 
-// write in pinia store
+    // write in pinia store
     store.data = await response.json()
     json.value = await store.data
 }
